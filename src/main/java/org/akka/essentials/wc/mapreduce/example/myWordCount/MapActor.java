@@ -40,13 +40,30 @@ class Result implements Serializable{
 
 }
 
-public class CountActor extends UntypedActor {
+public class MapActor extends UntypedActor {
 
     private ActorRef reduceActor = null;
 
-    public CountActor(ActorRef inReduceActor) {
-        reduceActor = inReduceActor;
+    public MapActor(ActorRef reduceActor) {
+        this.reduceActor = reduceActor;
     }
+    @Override
+    public void onReceive(Object msg) throws Exception {
+        String fileName = (String) msg;
+        String fileContext = readFile(fileName);
+        reduceActor.tell(wordCount(new String(fileContext))));
+    }
+
+
+
+
+    String readFile(String name){
+        return null;
+    }
+    private HashMap<String, Integer> wordCount(String context) {
+        return null;
+    }
+
     private void process(String fileName) {
         try {
             File file = new File(fileName);
@@ -84,11 +101,6 @@ public class CountActor extends UntypedActor {
             }
         }
         return reducedMap;
-    }
-    @Override
-    public void onReceive(Object msg) throws Exception {
-        String message = (String) msg;
-        process(message);
     }
 }
 

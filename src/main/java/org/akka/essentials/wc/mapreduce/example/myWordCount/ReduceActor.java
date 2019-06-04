@@ -6,21 +6,18 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class AggregateActor extends UntypedActor {
+public class ReduceActor extends UntypedActor {
 
 	private Map<String, Integer> finalReducedMap = new HashMap<String, Integer>();
 
 	@Override
 	public void onReceive(Object message) throws Exception {
 		if (message instanceof Map) {
-			@SuppressWarnings("unchecked")
 			Map<String, Integer> reducedList = (Map<String, Integer>) message;
 			aggregateInMemoryReduce(reducedList);
 		} else if (message instanceof String) {
 			if (((String) message).compareTo("DISPLAY_LIST") == 0) {
-				//getSender().tell(finalReducedMap.toString());
 				System.out.println(finalReducedMap.toString());
-				
 			}
 		}
 	}

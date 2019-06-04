@@ -14,11 +14,11 @@ public class Main {
 
         ActorSystem system = ActorSystem.create("sys");
         // create the aggregate Actor
-        final ActorRef aggregateActor = system.actorOf(new Props(AggregateActor.class));
+        final ActorRef aggregateActor = system.actorOf(new Props(ReduceActor.class));
         for (int i = 0; i < fileNames.size(); i++) {
             ActorRef countActor = system.actorOf(new Props(new UntypedActorFactory() {
                 public UntypedActor create() {
-                    return new CountActor(aggregateActor);
+                    return new MapActor(aggregateActor);
                 }
             }), "countActor"+i);
             String fileName = fileNames.get(i);

@@ -46,6 +46,6 @@ service Count on new http:Listener(9090) {
         // Send a response back to caller
         // Errors are ignored with '_'
         // -> indicates a synchronous network-bound call
-        check caller->respond(response);
+      07  check caller->respond(response);
     }
 }
