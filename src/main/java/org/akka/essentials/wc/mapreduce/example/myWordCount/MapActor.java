@@ -51,7 +51,7 @@ public class MapActor extends UntypedActor {
     public void onReceive(Object msg) throws Exception {
         String fileName = (String) msg;
         String fileContext = readFile(fileName);
-        reduceActor.tell(wordCount(new String(fileContext))));
+        reduceActor.tell(wordCount(fileContext));
     }
 
 
