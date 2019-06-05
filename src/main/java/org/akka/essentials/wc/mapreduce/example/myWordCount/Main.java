@@ -28,8 +28,3 @@ public class Main {
         aggregateActor.tell("DISPLAY_LIST");
     }
 }
-
-ActorRef creatActor(Object obj, ActorSystem system){
-    system.actorOf(new Props(ReduceActor.class));
-    return null;
-}
