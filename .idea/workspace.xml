@@ -6,11 +6,8 @@
       <change afterPath="$PROJECT_DIR$/../JavaTest2/src/example/Response.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestJAVA/src/example/Hello.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestJAVA/src/example/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/myactor/ActorFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myactor/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myactor/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myactor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myactor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myactor/MyActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myactor/MyActor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myactor/ActorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myactor/ActorFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/myactor/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="68">
               <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
@@ -38,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/myactor/MyActor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="578">
               <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/myactor/ActorFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="17">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -62,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/tmp/javaTest/example/Hello.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="170">
               <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
@@ -76,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/myactor/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="68">
               <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
@@ -85,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/reflect/AccessibleObject.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3870">
+            <state relative-caret-position="4386">
               <caret line="277" selection-start-line="277" selection-end-line="277" />
             </state>
           </provider>
@@ -94,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/reflect/Field.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2535">
+            <state relative-caret-position="2873">
               <caret line="207" selection-start-line="207" selection-end-line="207" />
             </state>
           </provider>
@@ -103,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/akka/essentials/wc/mapreduce/example/myWordCount/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="102">
               <caret line="9" column="72" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,16 +154,16 @@
         <option value="$PROJECT_DIR$/src/main/java/myactor/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/myactor/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/myactor/System.java" />
-        <option value="$PROJECT_DIR$/src/main/java/myactor/ActorFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/myactor/Counter.java" />
         <option value="$PROJECT_DIR$/src/main/java/myactor/MyActor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myactor/ActorFactory.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="398" />
+    <option name="x" value="324" />
     <option name="y" value="213" />
-    <option name="width" value="1052" />
+    <option name="width" value="1042" />
     <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -175,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,6 +237,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.akka.essentials.wc.mapreduce.example.client.Client" />
       <module name="org.akka.essentials.wc.mapreduce.example" />
@@ -338,7 +335,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Ballerina.src module" />
         <item itemvalue="Application.Client" />
@@ -363,7 +359,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2286171" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23661071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -372,14 +368,14 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4302721" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32993197" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.4931973" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -640,9 +636,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myactor/Hello.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/myactor/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myactor/MyActor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/tmp/javaTest/example/Hello.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="170">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
@@ -652,28 +669,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myactor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="68">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/reflect/AccessibleObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3870">
+        <state relative-caret-position="4386">
           <caret line="277" selection-start-line="277" selection-end-line="277" />
         </state>
       </provider>
     </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/reflect/Field.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
+        <state relative-caret-position="2873">
           <caret line="207" selection-start-line="207" selection-end-line="207" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/akka/essentials/wc/mapreduce/example/myWordCount/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="102">
           <caret line="9" column="72" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -684,31 +701,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/akka/essentials/wc/mapreduce/example/ballerina/reduce.bal">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myactor/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myactor/ActorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myactor/MyActor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
 package myactor;
-
+//factory actorof 创建actor为第二种实现
 public class ActorFactory {
-    static MyActor actorof(Class acotrKlass) {
+    static MyActor actorof(Class acotrKlass, String actorName) {
         //1. 创建名称为actorname的sqs消息队列sqsObj
         //2. 打包部署/更新java代码,handle为onReceiveHandle. 问题：能否自动打包java代码？
         //3. 设置并发最大次数，如果有状态，那么设置并发次数为1,否则不设置
@@ -9,7 +9,8 @@ public class ActorFactory {
         //    4.1： 当lambda正在处理上一次的请求，新的消息来到了sqs中，返回错误---这不是我们想要的，这是一个大问题
         //    4.2:  当lambda正在处理上一次的请求，新的消息来到了sqs中，等待结束然后再触发---这是我们想要的
         //5. 向注册中心注册actor名称
-        //6.
+        //6. 使用反射创建类型实例
+        //7. 上传实例属性到BAAS
         return null;
     }
     //根据actor名称查找actor，如果存在返回actor引用，否则返回Null
